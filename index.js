@@ -44,6 +44,6 @@ function makeSound(key) {
 function Animate(e) {
   var pa = document.querySelector("." + e);
   pa.classList.add("pressed");
-  setTimeout(function () { pa.classList.remove("pressed") }, 100);
+  setTimeout(function () { pa.classList.remove("pressed"); }, 100);
 
 }
